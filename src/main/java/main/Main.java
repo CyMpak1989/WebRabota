@@ -15,7 +15,6 @@ public class Main {
         Server server = new Server(8080);
         server.setHandler(context);
 
-
         server.start();
         System.out.println("Jetty server: Online");
         server.join();
